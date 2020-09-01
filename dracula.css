@@ -58,14 +58,6 @@
   }
 }
 
-@media (max-width: 500px) {
-  .messages .msg,
-  textarea,
-  input {
-    font-size: 14px !important;
-  }
-}
-
 @media (min-width: 480px) {
   #chat .from {
     padding-left: 20px;
@@ -92,6 +84,15 @@
   --highlight-bg-color: #44475a;
   --highlight-border-color: #44475a;
   --upload-progressbar-color: #50fa7b;
+  --mobile-font-size: 15px;
+}
+
+@media (max-width: 500px) {
+  .messages .msg,
+  textarea,
+  input {
+    font-size: var(--mobile-font-size) !important;
+  }
 }
 
 .channel-list-item.active,
