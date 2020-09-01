@@ -68,7 +68,7 @@
 
 :root {
   --body-color: #f8f8f2;
-  --border-color: #282a36;
+  --border-color: rgba(98, 114, 164, .3);
   --body-color-muted: #6272a4;
   --body-bg-color: #151320;
   --button-color: #50fa7b;
