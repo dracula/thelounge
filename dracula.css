@@ -49,13 +49,14 @@
 
 .messages .msg {
   font-size: 15px;
+  line-height: 1.45;
 }
 
 @media (max-width: 500px) {
   .messages .msg,
   textarea,
   input {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 }
 
@@ -123,6 +124,7 @@
     display: block !important;
   }
 
+  #chat .msg,
   #chat .msg[data-type="message"] {
     display: flex !important;
   }
