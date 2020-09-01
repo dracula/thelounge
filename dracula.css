@@ -67,8 +67,9 @@
 }
 
 :root {
-  --body-color: #f8f8f2;
-  --msg-self-color: #7487c2;
+  --body-color: rgba(248, 248, 242, .77);
+  --msg-self-color: #fff;
+  --msg-self-bg-color: #1b1f27;
   --msg-action-color: #f1fa8c;
   --border-color: rgba(98, 114, 164, .3);
   --body-color-muted: #6272a4;
@@ -76,7 +77,7 @@
   --button-color: #50fa7b;
   --button-text-color-hover: #282a36;
   --overlay-bg-color: rgba(0, 0, 0, 0.5);
-  --link-color: #ff79c6;
+  --link-color: #f8f8f2;
   --window-bg-color: #282a36;
   --window-heading-color: #44475a;
   --date-marker-color: rgba(40, 42, 54, 0.5);
@@ -96,8 +97,16 @@
   transition: all .55s;
 }
 
+#chat .msg.self {
+  /*background: var(--msg-self-bg-color);*/
+}
+
 #chat .msg.self .content {
   color: var(--msg-self-color);
+}
+
+#chat .msg.self .content * {
+  color: var(--msg-self-color) !important;
 }
 
 #chat .msg[data-type=action] .from:before,
