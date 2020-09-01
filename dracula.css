@@ -376,7 +376,7 @@ kbd {
 
 /* Embeds */
 #chat .toggle-content {
-  background: #182533;
+  background: var(--highlight-bg-color);
   color: #f3f3f3;
 }
 
