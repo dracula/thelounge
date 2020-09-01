@@ -112,7 +112,8 @@
 #chat .msg[data-type=action] .from:before,
 #chat .msg[data-type="action"],
 #chat .msg[data-type="action"] .content,
-#chat .msg[data-type="action"] span {
+#chat .msg[data-type="action"] span,
+#chat .msg[data-type="action"].self .user {
   color: var(--msg-action-color) !important;
 }
 
