@@ -54,7 +54,7 @@
 
 @media (max-width: 500px) {
   .messages .msg {
-    line-height: 1.3;
+    line-height: 1.4;
   }
 }
 
@@ -533,5 +533,20 @@ kbd {
   @media (max-width: 479px) {
     padding-top: 0;
     padding-bottom: 0;
+  }
+}
+
+#chat .from:after,
+#chat .from::after {
+  display: none !important;
+
+  @media (max-width: 479px) {
+    display: none !important;
+  }
+}
+
+@media (max-width: 479px) {
+  #chat .chat-view[data-type=channel] .msg.highlight {
+    padding-left: 10px;
   }
 }
