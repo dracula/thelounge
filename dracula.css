@@ -70,7 +70,7 @@
   --msg-self-color: #fff;
   --msg-self-bg-color: #1b1f27;
   --msg-action-color: #f1fa8c;
-  --border-color: rgba(98, 114, 164, .3);
+  --border-color: rgba(98, 114, 164, .14);
   --body-color-muted: #6272a4;
   --body-bg-color: #151320;
   --button-color: #50fa7b;
@@ -131,9 +131,13 @@
     display: block !important;
   }
 
-  #chat .msg,
-  #chat .msg[data-type="message"] {
-    display: flex !important;
+  #chat .msg:not(.closed):not([data-type=condensed]),
+  #chat .msg:not(.closed):not([data-type=condensed])[data-type="message"] {
+    display: flex;
+  }
+
+  #chat .msg.closed[data-type=condensed] .msg {
+    display: none !important;
   }
 
   #chat .time {
