@@ -1,0 +1,3 @@
+[submodule "wolfram-notebooks"]
+	path = wolfram-notebooks
+	url = git@github.com:dracula/wolfram-notebooks
