@@ -2,7 +2,7 @@
 
 > A dark theme for [The Lounge](https://github.com/thelounge/thelounge).
 
-![Screenshot](https://i.imgur.com/pOXyv3f.png)
+![Screenshot](./screenshot.png)
 
 ## Install
 
@@ -14,7 +14,7 @@ This theme is maintained by the following person(s) and a bunch of [awesome cont
 
 [![Roni Laukkarinen](https://avatars2.githubusercontent.com/u/1534150?s=70&u=fe1625aee7efcd85a64ddabfe4e415151c6be55d&v=4)](https://github.com/ronilaukkarinen) |
 --- |
-[Roni Laukkarinen](https://github.com/ronilaukkarinen) 
+[Roni Laukkarinen](https://github.com/ronilaukkarinen)
 
 ## License
 
