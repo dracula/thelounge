@@ -12,9 +12,9 @@ All instructions can be found at [draculatheme.com/thelounge](https://draculathe
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/thelounge/graphs/contributors).
 
-[![Roni Laukkarinen](https://avatars0.githubusercontent.com/u/1534150?v=3&s=70)](https://github.com/ronilaukkarinen) |
---- | ---
-[Roni Laukkarinen](https://github.com/ronilaukkarinen) | 
+[![Roni Laukkarinen](https://avatars2.githubusercontent.com/u/1534150?s=70&u=fe1625aee7efcd85a64ddabfe4e415151c6be55d&v=4)](https://github.com/ronilaukkarinen) |
+--- |
+[Roni Laukkarinen](https://github.com/ronilaukkarinen) 
 
 ## License
 
