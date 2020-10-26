@@ -1,5 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700&display=swap');
 
+/* General vars */
+:root {
+  --body-color: rgba(248, 248, 242, .77);
+  --msg-self-color: #fff;
+  --msg-self-bg-color: #1b1f27;
+  --msg-action-color: #f1fa8c;
+  --border-color: rgba(98, 114, 164, .14);
+  --body-color-muted: #6272a4;
+  --body-bg-color: #151320;
+  --button-color: #50fa7b;
+  --button-text-color-hover: #282a36;
+  --overlay-bg-color: rgba(0, 0, 0, 0.5);
+  --link-color: #f8f8f2;
+  --window-bg-color: #282a36;
+  --window-heading-color: #44475a;
+  --date-marker-color: rgba(40, 42, 54, 0.5);
+  --unread-marker-color: #ff79c6;
+  --highlight-bg-color: #44475a;
+  --highlight-border-color: #44475a;
+  --upload-progressbar-color: #50fa7b;
+  --font-size: 15px;
+}
+
+/* Mobile vars */
+@media (max-width: 500px) {
+  :root {
+    --font-size: 15px;
+  }
+}
+
+/* Spacings */
 #loading .window {
   margin: 5px;
 }
@@ -65,34 +96,11 @@
   }
 }
 
-:root {
-  --body-color: rgba(248, 248, 242, .77);
-  --msg-self-color: #fff;
-  --msg-self-bg-color: #1b1f27;
-  --msg-action-color: #f1fa8c;
-  --border-color: rgba(98, 114, 164, .14);
-  --body-color-muted: #6272a4;
-  --body-bg-color: #151320;
-  --button-color: #50fa7b;
-  --button-text-color-hover: #282a36;
-  --overlay-bg-color: rgba(0, 0, 0, 0.5);
-  --link-color: #f8f8f2;
-  --window-bg-color: #282a36;
-  --window-heading-color: #44475a;
-  --date-marker-color: rgba(40, 42, 54, 0.5);
-  --unread-marker-color: #ff79c6;
-  --highlight-bg-color: #44475a;
-  --highlight-border-color: #44475a;
-  --upload-progressbar-color: #50fa7b;
-  --mobile-font-size: 15px;
-}
-
-@media (max-width: 500px) {
-  .messages .msg,
-  textarea,
-  input {
-    font-size: var(--mobile-font-size) !important;
-  }
+/* Styles */
+.messages .msg,
+textarea,
+input {
+  font-size: var(--font-size) !important;
 }
 
 .channel-list-item.active,
