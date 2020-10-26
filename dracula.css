@@ -185,7 +185,7 @@
 
 .channel-list-item[data-type=channel]:before,
 .context-menu-chan:before {
-  content: "\f233";
+  content: "\f086";
 }
 
 @media (min-width: 770px) {
