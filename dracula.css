@@ -1,4 +1,13 @@
+/* Font
+
+Good, legible Google webfonts for IRC: Archivo, Exo 2, Fira Sans, Heebo, IBM Plex Sans, Noto Sans, Open Sans, Roboto, Rubik, Source Sans Pro, Titillium Web, Ubuntu
+*/
 @import url('https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700&display=swap');
+
+/* Use system font by default (San Francisco on macOS) and Roboto as second */
+body {
+  font: 16px -apple-system, system-ui, 'Rubik', Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
+}
 
 /* General vars */
 :root {
@@ -207,10 +216,6 @@ input {
   .channel-list-item {
     font-size: 16px;
   }
-}
-
-body {
-  font: 16px 'Rubik', -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
 }
 
 .jump-to-input {
