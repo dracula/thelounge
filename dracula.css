@@ -6,7 +6,7 @@ Good, legible Google webfonts for IRC: Archivo, Exo 2, Fira Sans, Heebo, IBM Ple
 
 /* Use system font by default (San Francisco on macOS) and Roboto as second */
 body {
-  font: 16px -apple-system, system-ui, 'Rubik', Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
+  font: 16px -apple-system, 'Roboto', 'Rubik', system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial;
 }
 
 /* General vars */
