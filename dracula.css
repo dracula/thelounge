@@ -547,20 +547,11 @@ kbd {
 #chat .msg {
   padding-top: 0;
   padding-bottom: 0;
-
-  @media (max-width: 479px) {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
 }
 
 #chat .from:after,
 #chat .from::after {
   display: none !important;
-
-  @media (max-width: 479px) {
-    display: none !important;
-  }
 }
 
 @media (max-width: 479px) {
