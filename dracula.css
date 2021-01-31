@@ -574,6 +574,7 @@ kbd {
 	width: 150px;
 }
 
+/* Disable highlighted words in between text */
 #chat .content span[class*="irc-"] {
 	color: inherit;
 	background-color: inherit;
@@ -583,7 +584,7 @@ kbd {
 	text-decoration: inherit;
 }
 
+/* Disable highlighted words in between text */
 #chat.colored-nicks .content .user[data-name] {
   color: inherit !important;
-  pointer-events: none;
 }
