@@ -1,5 +1,9 @@
 ### [The Lounge](https://thelounge.chat/)
 
+#### Install using thelounge
+
+    $ thelounge install thelounge-theme-dracula-official
+
 #### Install using Git
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
