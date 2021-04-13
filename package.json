@@ -1,0 +1,27 @@
+{
+  "name": "thelounge-theme-dracula-official",
+  "version": "1.0.1",
+  "main": "package.json",
+  "homepage": "https://draculatheme.com/thelounge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dracula/thelounge.git"
+  },
+  "author": "Roni Laukkarinen <roni@dude.fi>",
+  "license": "MIT",
+  "keywords": [
+    "thelounge",
+    "thelounge-theme",
+    "dracula",
+    "dracula-theme"
+  ],
+  "thelounge": {
+    "css": "dracula.css",
+    "name": "Dracula",
+    "type": "theme",
+    "themeColor": "#282a36"
+  },
+  "bugs": {
+    "url": "https://github.com/dracula/thelounge/issues"
+  }
+}

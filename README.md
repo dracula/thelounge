@@ -1,5 +1,13 @@
 # Dracula for [The Lounge](https://github.com/thelounge/thelounge)
 
+<a href="https://yarn.pm/thelounge-theme-dracula-official"><img
+		alt="npm version"
+		src="https://img.shields.io/npm/v/thelounge-theme-dracula-official.svg?style=flat-square"></a>
+
+<a href="https://npm-stat.com/charts.html?package=thelounge-theme-dracula-official&from=2021-04-13"><img
+		alt="Total downloads on npm"
+		src="https://img.shields.io/npm/dt/thelounge-theme-dracula-official.svg?colorB=007dc7&style=flat-square"></a>
+
 > A dark theme for [The Lounge](https://github.com/thelounge/thelounge).
 
 ![Screenshot](https://i.imgur.com/zADytnb.png)
