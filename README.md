@@ -4,7 +4,7 @@
 
 > A dark theme for [The Lounge](https://github.com/thelounge/thelounge).
 
-![Screenshot](https://i.imgur.com/zADytnb.png)
+![Screenshot](./screenshot.png)
 
 ## Install
 
