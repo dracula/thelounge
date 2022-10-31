@@ -167,10 +167,6 @@ input {
   color: var(--msg-self-color);
 }
 
-#chat .msg.self .content * {
-  color: var(--msg-self-color) !important;
-}
-
 #chat .msg[data-type=action] .from::before,
 #chat .msg[data-type="action"],
 #chat .msg[data-type="action"] .content,
@@ -633,14 +629,8 @@ body #chat .toggle-content .thumb {
 /* Disable highlighted words in between text */
 #chat .content span[class*="irc-"] {
   background-color: inherit;
-  color: inherit;
   font-family: inherit;
   font-style: inherit;
   font-weight: inherit;
   text-decoration: inherit;
-}
-
-/* Disable highlighted words in between text */
-#chat.colored-nicks .content .user[data-name] {
-  color: inherit !important;
 }
