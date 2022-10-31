@@ -1,3 +1,7 @@
+### 1.0.3: 2022-10-31
+
+* Fix MOTD/WHOIS #3 (kudos to @benyafai)
+
 ### 1.0.2: 2021-04-13
 
 * Fixes to documentation
