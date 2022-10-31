@@ -167,16 +167,16 @@ input {
   color: var(--msg-self-color);
 }
 
-#chat .msg.self .content * {
-  color: var(--msg-self-color) !important;
-}
-
 #chat .msg[data-type=action] .from::before,
 #chat .msg[data-type="action"],
 #chat .msg[data-type="action"] .content,
 #chat .msg[data-type="action"] span,
 #chat .msg[data-type="action"].self .user {
   color: var(--msg-action-color) !important;
+}
+
+#chat .msg[data-type=monospace_block] .text {
+  background-color: var(--window-bg-color);
 }
 
 @media (max-width: 479px) {
@@ -295,6 +295,46 @@ input {
 #viewport .lt,
 #viewport .rt {
   margin-top: 4px;
+}
+
+#chat .irc-fg0 {
+  color: #f8f8f2;
+}
+
+#chat .irc-fg1 {
+  color: #21222c;
+}
+
+#chat .irc-fg2 {
+  color: #bd93f9;
+}
+
+#chat .irc-fg3 {
+  color: #50fa7b;
+}
+
+#chat .irc-fg4 {
+  color: #ff5555;
+}
+
+#chat .irc-fg5 {
+  color: #75715e; /* Dracula has no 'brown' defined */
+}
+
+#chat .irc-fg6 {
+  color: #ff79c6;
+}
+
+#chat .irc-fg7 {
+  color: #ffb86c;
+}
+
+#chat .irc-fg8 {
+  color: #f1fa8c;
+}
+
+#chat .irc-fg9 {
+  color: #69ff94;
 }
 
 #chat.colored-nicks .user.color-1 {
@@ -629,14 +669,8 @@ body #chat .toggle-content .thumb {
 /* Disable highlighted words in between text */
 #chat .content span[class*="irc-"] {
   background-color: inherit;
-  color: inherit;
   font-family: inherit;
   font-style: inherit;
   font-weight: inherit;
   text-decoration: inherit;
-}
-
-/* Disable highlighted words in between text */
-#chat.colored-nicks .content .user[data-name] {
-  color: inherit !important;
 }
