@@ -179,6 +179,10 @@ input {
   color: var(--msg-action-color) !important;
 }
 
+#chat .msg[data-type=monospace_block] .text {
+  background-color: var(--window-bg-color);
+}
+
 @media (max-width: 479px) {
   #chat .condensed-summary .from,
   #chat .condensed-summary .time {
