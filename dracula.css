@@ -297,6 +297,46 @@ input {
   margin-top: 4px;
 }
 
+#chat .irc-fg0 {
+  color: #f8f8f2;
+}
+
+#chat .irc-fg1 {
+  color: #21222c;
+}
+
+#chat .irc-fg2 {
+  color: #bd93f9;
+}
+
+#chat .irc-fg3 {
+  color: #50fa7b;
+}
+
+#chat .irc-fg4 {
+  color: #ff5555;
+}
+
+#chat .irc-fg5 {
+  color: #75715e; /* Dracula has no 'brown' defined */
+}
+
+#chat .irc-fg6 {
+  color: #ff79c6;
+}
+
+#chat .irc-fg7 {
+  color: #ffb86c;
+}
+
+#chat .irc-fg8 {
+  color: #f1fa8c;
+}
+
+#chat .irc-fg9 {
+  color: #69ff94;
+}
+
 #chat.colored-nicks .user.color-1 {
   color: #f7adf7;
 }
