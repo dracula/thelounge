@@ -237,6 +237,10 @@ input {
   color: var(--body-color-muted) !important;
 }
 
+#chat .message-search input {
+  color: var(--body-bg-color);
+}
+
 .channel-list-item[data-type=channel]::before,
 .context-menu-chan::before {
   content: "\f086";
