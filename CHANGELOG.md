@@ -1,3 +1,8 @@
+### 1.0.6: 2023-01-15
+
+* Re-publish after failed login
+* Fix for invisible search criteria in search bar (kudos to @benyafai)
+
 ### 1.0.5: 2023-01-15
 
 * Fix for invisible search criteria in search bar (kudos to @benyafai)
