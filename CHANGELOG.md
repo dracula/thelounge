@@ -1,3 +1,7 @@
+### 1.0.5: 2023-01-15
+
+* Fix for invisible search criteria in search bar (kudos to @benyafai)
+
 ### 1.0.4: 2022-10-31
 
 * Fix MOTD/WHOIS #3 (kudos to @benyafai)
