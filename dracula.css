@@ -285,7 +285,6 @@ input {
 }
 
 .channel-list-item[data-type=lobby],
-.irc-bold,
 #chat .toggle-content .head {
   font-weight: 500;
 }
@@ -672,9 +671,5 @@ body #chat .toggle-content .thumb {
 
 /* Disable highlighted words in between text */
 #chat .content span[class*="irc-"] {
-  background-color: inherit;
   font-family: inherit;
-  font-style: inherit;
-  font-weight: inherit;
-  text-decoration: inherit;
 }
